@@ -1,0 +1,1300 @@
+{
+  "source": {
+    "faculty_list_page": "https://cse.ulab.edu.bd/people/cse-faculty",
+    "note": "Data compiled from individual ULAB CSE faculty profile pages on cse.ulab.edu.bd, August 2026. 'courses_taught' reflects each faculty member's own profile page listing (may include courses from other terms/other universities' curricula history, not only Summer 2026). Cross-check with 'summer_2026_class_schedule' section for the current semester's actual teaching assignments where identifiable."
+  },
+  "faculty": [
+    {
+      "name": "Prof. Muhammad Golam Kibria, PhD, SMIEEE",
+      "designation": "Professor & Head",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Golam.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/prof-muhammad-golam-kibria-phd-smieee",
+      "education": [
+        "PhD, Engineering, Hankuk University of Foreign Studies (HUFS), South Korea, Feb 2018 (Semantic interoperability provisioning of knowledge-based services in IoT environments)",
+        "MSc, Greenwich University, UK, June 2008 (Critical analysis of soft handover in UMTS cellular network)",
+        "BSc, North South University, Bangladesh, December 2003"
+      ],
+      "areas_of_interest": [
+        "Internet of Things (IoT)",
+        "Semantic Web",
+        "Web-of-Objects (WoO)"
+      ],
+      "courses_taught": [
+        "CSE 101: Introduction to Computer Studies",
+        "CSE 203: Computer Organization and Architecture",
+        "CSE 207/208: Data Structures",
+        "CSE 303: Database Management System",
+        "MAT 101: Math-I (Differential and Integral Calculus)",
+        "CSE 204: Operating Systems",
+        "CSE 305/306: Algorithms"
+      ],
+      "research_area_mapping": "Artificial Intelligence, Data Science and Intelligent Systems"
+    },
+    {
+      "name": "Nafees Mansoor, PhD",
+      "designation": "Professor",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Dr_Nafees_Mansoor.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/nafees-mansoor-phd",
+      "education": [
+        "PhD in Electrical Engineering, Universiti Teknologi Malaysia (UTM), 2016 (A Spectrum Aware Cluster-based Architecture for Cognitive Radio Ad-hoc Network)",
+        "MSc in Telecommunication Engineering, Independent University, Bangladesh (IUB), 2008",
+        "BSc in Computer Science, Independent University, Bangladesh (IUB), 2005 (cum laude)"
+      ],
+      "areas_of_interest": [
+        "Wireless Communications",
+        "Ad-Hoc Networks",
+        "Blockchain",
+        "Digital Twin",
+        "Graph Theory"
+      ],
+      "courses_taught": [
+        "CSE 101: Introduction to Computer Studies",
+        "CSE 103/103L: Structured Programming",
+        "CSE 201/202: Object Oriented Programming",
+        "CSE 203: Computer Organization and Architecture",
+        "CSE 303: Database Management System",
+        "CSE 305/306: Algorithms",
+        "CSE 309: Data Communication and Computer Networking",
+        "CSE 402: Wireless and Mobile Computing",
+        "CSE 410: Artificial Intelligence",
+        "CSE 417: Automata and Theory of Computation",
+        "CSE 480: Web Technology",
+        "CSE 499: Final Year Project/Internship"
+      ],
+      "research_area_mapping": "Artificial Intelligence, Data Science and Intelligent Systems"
+    },
+    {
+      "name": "T. M. Abul Kalam Azad, PhD",
+      "designation": "Associate Professor",
+      "department": "Bachelor of Science, Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/T.%20M.%20Abul%20Kalam%20Azad.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/t-m-abul-kalam-azad-phd",
+      "education": [
+        "PhD, Department of Mathematics, Jahangirnagar University",
+        "Master of Philosophy (MPhil) in Pure Mathematics, Rajshahi University",
+        "Master of Science in Pure Mathematics, Rajshahi University",
+        "Bachelor of Science (Honors) in Pure Mathematics, Rajshahi University"
+      ],
+      "areas_of_interest": [
+        "Computational Fluid Dynamics",
+        "Numerical Analysis",
+        "Differential Equations",
+        "Statistics and Probability",
+        "Business Mathematics and Stock Market Analysis"
+      ],
+      "courses_taught": [
+        "MAT 101: Math-I (Differential and Integral Calculus)",
+        "MAT 102: Math-II (Co-ordinate Geometry and Linear Algebra)",
+        "MAT 201: Differential Equation and Numerical Analysis",
+        "MAT 203: Math-III (Mathematical Methods)",
+        "SAT 206: Statistics and Probability"
+      ],
+      "research_area_mapping": null
+    },
+    {
+      "name": "Rezwan Al Islam Khan, PhD",
+      "designation": "Associate Professor",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/rezwan-khan.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/rezwan-al-islam-khan-phd",
+      "education": [
+        "Doctor of Natural Science in Circuits and Systems, Fudan University, Shanghai, China",
+        "MSc in Telecommunication Engineering, Independent University Bangladesh",
+        "BSc in Computer Science, Independent University Bangladesh"
+      ],
+      "areas_of_interest": [
+        "Robotics",
+        "Embedded Systems",
+        "Optimization",
+        "Reinforcement Learning",
+        "Multi-agent control",
+        "Control Systems"
+      ],
+      "courses_taught": [],
+      "research_area_mapping": "Cybersecurity and Privacy"
+    },
+    {
+      "name": "Ashraful Kadir, PhD",
+      "designation": "Assistant Professor",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Dr-Ashraful-Kadir.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/ashraful-kadir-phd",
+      "education": [
+        "PhD, Applied & Computational Mathematics (Numerical Analysis), KTH Royal Institute of Technology, 2017",
+        "Degree of Licentiate, Applied & Computational Mathematics, KTH Royal Institute of Technology, 2014",
+        "MSc, Scientific Computing, KTH Royal Institute of Technology, 2010",
+        "MBA (Finance & Banking), Southeast University, 2008",
+        "BSc, Computer Science & Engineering, University of Dhaka, 2005"
+      ],
+      "areas_of_interest": [
+        "Distributed and Agentic AI Systems",
+        "Computational Modeling and Scientific Computing",
+        "Intelligent Digital Infrastructure and Knowledge Systems",
+        "AI Architecture and Decision-Support Systems",
+        "Data Systems and Enterprise Integration",
+        "XR, IoT and Emerging Interactive Technologies",
+        "Human-Centered Technology Design",
+        "Digital Transformation and Institutional Innovation",
+        "Sustainability, Systems Thinking, and Technology Futures"
+      ],
+      "courses_taught": [
+        "Data Structures",
+        "Algorithms Lab",
+        "Database Management Lab",
+        "Operating Systems Lab",
+        "Environment & Sustainability",
+        "Applied Numerical Methods",
+        "Scientific Computing",
+        "Computational Modeling"
+      ],
+      "research_area_mapping": null
+    },
+    {
+      "name": "Ayesha Akter Lata, PhD",
+      "designation": "Assistant Professor",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Dr-Ayesha-Akter-Lata.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/ayesha-akter-lata-phd",
+      "education": [
+        "PhD in Wireless Sensor Networking, Chosun University, Republic of Korea, Feb 2026",
+        "M.E. in Computer Engineering, Chosun University, Republic of Korea, Feb 2017",
+        "B.Sc. Engineering in Computer Science and Engineering, Shahjalal University of Science & Technology, Bangladesh, Nov 2011"
+      ],
+      "areas_of_interest": [
+        "Wireless Sensor Networks",
+        "Opportunistic Routing",
+        "MAC Protocols",
+        "Reinforcement Learning",
+        "Computer Networks",
+        "Image Processing",
+        "Medical Image Analysis",
+        "2D/3D Image Encryption"
+      ],
+      "courses_taught": [
+        "CSE 2202: Algorithms Lab",
+        "CSE 2301: Database Management System",
+        "CSE 3120: Web Programming Lab",
+        "CSE 3301: Cyber Security",
+        "CSE 4460: Big Data Analytics Lab",
+        "CSE 4465: Natural Language Processing"
+      ],
+      "research_area_mapping": "Distributed Computing, IoT and Networks"
+    },
+    {
+      "name": "Md Al Amin Sheikh, PhD",
+      "designation": "Assistant Professor",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Untitled%20design%20%285%29.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/md-al-amin-sheikh-phd",
+      "education": [
+        "Ph.D. in Medical Sciences, School of Integrative and Global Majors (SIGMA), University of Tsukuba, March 2026",
+        "Master of Science and Engineering, Taylor's University, Malaysia, October 2021",
+        "B.Sc. in Computer Science and Engineering, University of Asia Pacific, September 2017"
+      ],
+      "areas_of_interest": [
+        "Computational biology",
+        "Vascular biology",
+        "Bioinformatics",
+        "Multi-omics analysis",
+        "Machine learning",
+        "Artificial intelligence"
+      ],
+      "courses_taught": [
+        "CSE 2201: Algorithms",
+        "CSE 3203: Software Engineering",
+        "CSE 4463: Introduction to Bioinformatics",
+        "CSE 3301: Cyber Security",
+        "CSE 3202: Artificial Intelligence & Machine Learning Lab",
+        "CSE 2200: Design Project-I",
+        "CSE 3102: Microprocessor and Microcontroller Lab"
+      ],
+      "research_area_mapping": null
+    },
+    {
+      "name": "Mst Taskia Khatun, PhD",
+      "designation": "Assistant Professor",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Untitled%20design%20%284%29.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/mst-taskia-khatun-phd",
+      "education": [
+        "PhD, Environmental Studies (Simulation Modeling and Project Management), The University of Tokyo, Japan, 2024",
+        "Master's in Environmental Studies, The University of Tokyo, Japan, 2020",
+        "B.Sc. (Engineering), Computer Science & Engineering, Rajshahi University of Engineering and Technology (RUET), 2014"
+      ],
+      "areas_of_interest": [
+        "Software Project Management",
+        "Data Science",
+        "Simulation Modeling",
+        "System Thinking and System Design",
+        "Agentic AI Systems"
+      ],
+      "courses_taught": [
+        "CSE 1301: Data Structures",
+        "CSE 1302: Data Structures Lab",
+        "CSE 1102: Introduction to Programming",
+        "CSE 2306: Operating Systems Lab",
+        "CSE 3205: Computer Networks",
+        "CSE 3103: System Analysis and Design"
+      ],
+      "research_area_mapping": null
+    },
+    {
+      "name": "Raihan Kibria",
+      "designation": "Senior Lecturer",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Raihan-Kibria.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/raihan-kibria",
+      "education": [
+        "Master of Science, University of Baltimore, USA, 2002, Summa Cum Laude",
+        "Bachelor of Technology, National Institute of Technology, Warangal, India, 1993"
+      ],
+      "areas_of_interest": [
+        "Machine Learning",
+        "Natural Language Processing",
+        "Data Mining",
+        "Data Science"
+      ],
+      "courses_taught": [],
+      "research_area_mapping": "Software Engineering and Human-Centered Computing"
+    },
+    {
+      "name": "Ms. Rubaiya Hafiz",
+      "designation": "Senior Lecturer",
+      "department": "Bachelor of Science, Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Untitled%20design%20%284%29%20%281%29.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/ms-rubaiya-hafiz",
+      "education": [
+        "M.Sc in Computer Science & Engineering, Jahangirnagar University",
+        "B.Sc in Computer Science & Engineering, Jahangirnagar University"
+      ],
+      "areas_of_interest": [
+        "Computer Vision",
+        "Image Processing",
+        "Machine Learning"
+      ],
+      "courses_taught": [
+        "CSE 204: Operating Systems",
+        "CSE 412: Programming with Java"
+      ],
+      "research_area_mapping": "Software Engineering and Human-Centered Computing"
+    },
+    {
+      "name": "Md Anowarul Abedin",
+      "designation": "Senior Lecturer",
+      "department": "School of Science & Engineering",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Md-Anowarul-Abedin.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/md-anowarul-abedin",
+      "education": [
+        "MSc in Computer Science, Lappeenranta University of Technology (LUT), Finland",
+        "BSc in Computer Science and Information Technology, Islamic University of Technology (IUT), Bangladesh"
+      ],
+      "areas_of_interest": [
+        "Core Networks",
+        "Network Automation",
+        "IT Security and Privacy",
+        "Drone Technology",
+        "Sustainable ICT"
+      ],
+      "courses_taught": [],
+      "research_area_mapping": null
+    },
+    {
+      "name": "Jannatul Ferdous Ruma",
+      "designation": "Senior Lecturer",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Untitled%20design%20%288%29_0.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/jannatul-ferdous-ruma",
+      "education": [
+        "M.Sc. in Computer Science and Engineering, North South University, Bangladesh",
+        "B.Sc. in Computer Science and Engineering, North South University, Bangladesh"
+      ],
+      "areas_of_interest": [
+        "Natural Language Processing (NLP)",
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "courses_taught": [
+        "CSE 1102: Introduction to Programming",
+        "CSE 1201: Structured Programming",
+        "MAT 1101: Differential and Integral Calculus",
+        "CSE 2104: Object Oriented Programming Lab",
+        "CSE 2301: Database Management System",
+        "CSE 2201: Algorithms",
+        "CSE 3103: System Analysis and Design"
+      ],
+      "research_area_mapping": "Algorithms, Computing Theory and Optimization"
+    },
+    {
+      "name": "Suravi Akhter",
+      "designation": "Lecturer",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/image_suravi.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/suravi-akhter",
+      "education": [
+        "MSc, Institute of Information Technology, University of Dhaka, August 2022",
+        "BSc, Institute of Information Technology, University of Dhaka, December 2019"
+      ],
+      "areas_of_interest": [
+        "Machine Learning",
+        "Data Science",
+        "Natural Language Processing"
+      ],
+      "courses_taught": [
+        "CSE 404: Software Engineering",
+        "CSE 103/103L: Structured Programming"
+      ],
+      "research_area_mapping": "Interdisciplinary Computing Applications"
+    },
+    {
+      "name": "Md. Nazmul Abdal",
+      "designation": "Lecturer",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Untitled%20design%20%282%29.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/md-nazmul-abdal",
+      "education": [
+        "B.Sc. in Computer Science and Engineering (CSE), Khulna University",
+        "M.Sc. in Computer Science and Engineering (CSE), BUET"
+      ],
+      "areas_of_interest": [
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Internet of Things (IoT)"
+      ],
+      "courses_taught": [
+        "CSE 1102: Introduction to Programming",
+        "CSE 1201: Structured Programming",
+        "CSE 1301: Data Structures",
+        "CSE 2101: Digital Logic Design",
+        "CSE 2203: Computer Organization and Architecture",
+        "CSE 2303: Automata and Theory of Computation",
+        "CSE 3101: Microprocessor and Microcontroller",
+        "CSE 3205: Computer Networks"
+      ],
+      "research_area_mapping": "Interdisciplinary Computing Applications"
+    },
+    {
+      "name": "Fatema Khan",
+      "designation": "Lecturer",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Fatema-Khan.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/fatema-khan",
+      "education": [
+        "M.Sc in Computer Science and Engineering, Jahangirnagar University, Bangladesh",
+        "B.Sc in Computer Science and Engineering, Jahangirnagar University, Bangladesh"
+      ],
+      "areas_of_interest": [
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "courses_taught": [
+        "CSE 104: Structured Programming Laboratory",
+        "CSE 205: Discrete Mathematics",
+        "CSE 207/208: Data Structures",
+        "CSE 305/306: Algorithms"
+      ],
+      "research_area_mapping": "Artificial Intelligence, Data Science and Intelligent Systems"
+    },
+    {
+      "name": "Md. Ahsan Ullah",
+      "designation": "Lecturer",
+      "department": "Bachelor of Science, Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Untitled%20design%20%283%29.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/md-ahsan-ullah",
+      "education": [
+        "Master of Science in Applied Mathematics, Khulna University, Bangladesh",
+        "Bachelor of Science (Honors) in Mathematics, Khulna University, Bangladesh"
+      ],
+      "areas_of_interest": [
+        "Mathematical Modelling",
+        "Applied and Computational Mathematics",
+        "Numerical Simulation",
+        "Machine Learning",
+        "Deep Learning",
+        "Data Science",
+        "Image Processing",
+        "Computer Vision",
+        "Pattern Recognition"
+      ],
+      "courses_taught": [],
+      "research_area_mapping": "Interdisciplinary Computing Applications"
+    },
+    {
+      "name": "Nasir Uddin Ahmed",
+      "designation": "Lecturer",
+      "department": "Bachelor of Science, Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Nasir-Uddin-Ahmed.png.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/nasir-uddin-ahmed",
+      "education": [
+        "Master of Data Science, Universiti Malaya, Kuala Lumpur, Malaysia (with Distinction)",
+        "Bachelor of Science in Computer Science and Engineering, United International University, Dhaka, Bangladesh (Magna Cum Laude)"
+      ],
+      "areas_of_interest": [
+        "AI",
+        "Machine Learning",
+        "Data Analytics",
+        "Big Data Management",
+        "NLP",
+        "XAI",
+        "Data Science"
+      ],
+      "courses_taught": [],
+      "research_area_mapping": "Cybersecurity and Privacy"
+    },
+    {
+      "name": "Shah Jafor Sadeek Quaderi",
+      "designation": "Lecturer",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Shah-Jafor-Sadeek-Quaderi-300.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/shah-jafor-sadeek-quaderi",
+      "education": [
+        "MSc in Computer Science, University of Malaya, Kuala Lumpur, Malaysia",
+        "BSc in Computer Science and Engineering, East West University, Dhaka, Bangladesh"
+      ],
+      "areas_of_interest": [
+        "Information Retrieval",
+        "Natural Language Processing",
+        "Machine Learning",
+        "Data Mining",
+        "Intelligent Traffic Management Systems"
+      ],
+      "courses_taught": [
+        "CSE 1201: Structured Programming",
+        "CSE 2101: Digital Logic Design",
+        "CSE 2203: Computer Organization and Architecture",
+        "CSE 3101: Microprocessor and Microcontroller",
+        "CSE 3102: Microprocessor and Microcontroller Lab",
+        "CSE 3206: Computer Networks Lab",
+        "CSE 4418: Internet of Things Lab"
+      ],
+      "research_area_mapping": "Cybersecurity and Privacy"
+    },
+    {
+      "name": "Md Kaviul Hossain",
+      "designation": "Lecturer",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/ULAB%20website%20Profile%20MDKH.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/md-kaviul-hossain",
+      "education": [
+        "B.Sc. in Computer Science & Engineering, BRAC University, 2021",
+        "M.IT. (Professional), Deakin University, Australia, 2024",
+        "MSGED, Jahangirnagar University, 2026 (Ongoing)"
+      ],
+      "areas_of_interest": [
+        "Networking",
+        "Cloud Computing",
+        "IoT",
+        "Machine Learning",
+        "Neural Networks",
+        "Geographic Information System (GIS)"
+      ],
+      "courses_taught": [
+        "CSE 1102: Introduction to Programming",
+        "CSE 2306: Operating Systems Lab",
+        "CSE 3200: Design Project-II",
+        "CSE 3202: Artificial Intelligence & Machine Learning Lab",
+        "CSE 3206: Computer Networks Lab",
+        "CSE 4419: Network Security",
+        "CSE 4421: Wireless and Cellular Communication",
+        "CSE 4465: Natural Language Processing",
+        "CSE 3205: Computer Networks",
+        "STA 2101: Probability and Statistics"
+      ],
+      "research_area_mapping": "Distributed Computing, IoT and Networks"
+    },
+    {
+      "name": "Wahida Ferdose Urmi",
+      "designation": "Lecturer",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/5552.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/wahida-ferdose-urmi",
+      "education": [
+        "M.Sc. in Computer Science and Engineering, Jagannath University, Dhaka, Bangladesh",
+        "B.Sc. in Computer Science and Engineering, Jagannath University, Dhaka, Bangladesh"
+      ],
+      "areas_of_interest": [
+        "Machine Learning",
+        "Deep Learning",
+        "Blockchain Technology"
+      ],
+      "courses_taught": [
+        "CSE 2303: Automata and Theory of Computation",
+        "CSE 1201: Structured Programming",
+        "CSE 4463: Introduction to Bioinformatics",
+        "CSE 3200: Design Project-II",
+        "CSE 1302: Data Structures Lab"
+      ],
+      "research_area_mapping": "Distributed Computing, IoT and Networks"
+    },
+    {
+      "name": "Atanu Shuvam Roy",
+      "designation": "Lecturer",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Atanu-Shuvam-Roy.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/atanu-shuvam-roy",
+      "education": [
+        "Master of Technology (MTech) in Computer Science & Engineering, Indian Institute of Technology Kanpur, 2022-2024",
+        "Bachelor of Engineering, Jiangxi University of Science & Technology, 2018-2022"
+      ],
+      "areas_of_interest": [
+        "Embedded Systems",
+        "Robotics & Automation",
+        "Computer Vision",
+        "Internet of Things (IoT)",
+        "Automated Guided Vehicles"
+      ],
+      "courses_taught": [
+        "STA 2101: Probability and Statistics",
+        "CSE 3203: Software Engineering",
+        "CSE 2306: Operating Systems Lab",
+        "CSE 3200: Design Project-II",
+        "CSE 3202: Artificial Intelligence & Machine Learning Lab",
+        "CSE 2201: Algorithms"
+      ],
+      "research_area_mapping": "Computer Systems and Embedded Computing"
+    },
+    {
+      "name": "Dewan Ahmed Muhtasim",
+      "designation": "Lecturer",
+      "department": "Bachelor of Science, Computer Science and Engineering (CSE)",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Dewan-Ahmed-Muhtasim.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/dewan-ahmed-muhtasim",
+      "education": [
+        "MSc in Computer Science (Full Research), Centre for Artificial Intelligence and Technology (CAIT), Universiti Kebangsaan Malaysia (UKM), March 2024",
+        "BSc, Faculty of Information Science and Technology, Universiti Kebangsaan Malaysia (UKM), August 2020"
+      ],
+      "areas_of_interest": [
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Image Processing",
+        "Data Science",
+        "Computer Vision"
+      ],
+      "courses_taught": [],
+      "research_area_mapping": "Computer Systems and Embedded Computing"
+    },
+    {
+      "name": "Foysal Ahmed",
+      "designation": "Lecturer",
+      "department": "Bachelor of Science, Computer Science and Engineering (CSE) / School of Science & Engineering",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Foysal-Ahmed.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/foysal-ahmed",
+      "education": [
+        "MSc in Software Engineering, Institute of Information Technology, University of Dhaka, November 2025",
+        "BSc in Computer Science and Engineering, BRAC University, March 2023"
+      ],
+      "areas_of_interest": [
+        "Natural Language Processing (low-resource, Bangla NLP)",
+        "Machine Learning",
+        "Software Quality"
+      ],
+      "courses_taught": [],
+      "research_area_mapping": "Software Engineering and Human-Centered Computing"
+    },
+    {
+      "name": "Abir Bin Yousuf",
+      "designation": "Lecturer",
+      "department": "Bachelor of Science, Computer Science and Engineering (CSE) / School of Science & Engineering",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Abir-bin-yousuf.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/abir-bin-yousuf",
+      "education": [
+        "MSc, BRAC University, Dhaka, Bangladesh, March 2025",
+        "BSc, BRAC University, Dhaka, Bangladesh, December 2020"
+      ],
+      "areas_of_interest": [
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Natural Language Processing (NLP)"
+      ],
+      "courses_taught": [],
+      "research_area_mapping": "Algorithms, Computing Theory and Optimization"
+    },
+    {
+      "name": "Shawban Mahmud",
+      "designation": "Lecturer",
+      "department": "Bachelor of Science, Computer Science and Engineering (CSE) / School of Science & Engineering",
+      "status": "active",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Shawban-Mahmud.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/shawban-mahmud",
+      "education": [
+        "MSc, Minnesota State University, USA, June 2023",
+        "BSc, Curtin University, Australia, June 2020"
+      ],
+      "areas_of_interest": [
+        "Computer Networking",
+        "Cyber Security",
+        "Applied Information Technology"
+      ],
+      "courses_taught": [],
+      "research_area_mapping": "Algorithms, Computing Theory and Optimization"
+    },
+    {
+      "name": "Bijan Paul",
+      "designation": "Senior Lecturer (On Leave)",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "on_leave",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Bijan-Paul.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/bijan-paul",
+      "education": [],
+      "areas_of_interest": [],
+      "courses_taught": [],
+      "research_area_mapping": null,
+      "note": "Currently on leave; full profile details not compiled. See profile_url for the latest information."
+    },
+    {
+      "name": "Khan Raqib Mahmud",
+      "designation": "Senior Lecturer (On Leave)",
+      "department": "Bachelor of Science, Computer Science and Engineering (CSE)",
+      "status": "on_leave",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Khan%20Raqib%20Mahmud.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/khan-raqib-mahmud",
+      "education": [],
+      "areas_of_interest": [],
+      "courses_taught": [],
+      "research_area_mapping": null,
+      "note": "Currently on leave; full profile details not compiled. See profile_url for the latest information."
+    },
+    {
+      "name": "Rianon Zaman",
+      "designation": "Senior Lecturer (On Leave)",
+      "department": "School of Science & Engineering",
+      "status": "on_leave",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/1542106512_Rianon-Zaman-removebg-preview.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/rianon-zaman",
+      "education": [],
+      "areas_of_interest": [],
+      "courses_taught": [],
+      "research_area_mapping": null,
+      "note": "Currently on leave; full profile details not compiled. See profile_url for the latest information."
+    },
+    {
+      "name": "Shakib Mahmud Dipto",
+      "designation": "Lecturer (On Leave)",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "on_leave",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Shakib-Mahmud-Dipto.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/shakib-mahmud-dipto",
+      "education": [],
+      "areas_of_interest": [],
+      "courses_taught": [],
+      "research_area_mapping": null,
+      "note": "Currently on leave; full profile details not compiled. See profile_url for the latest information."
+    },
+    {
+      "name": "Ahmed Al Hasan",
+      "designation": "Lecturer (On Leave)",
+      "department": "Bachelor of Science, Computer Science and Engineering (CSE)",
+      "status": "on_leave",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Ahmed%20Al%20Hasan.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/ahmed-al-hasan",
+      "education": [],
+      "areas_of_interest": [],
+      "courses_taught": [],
+      "research_area_mapping": null,
+      "note": "Currently on leave; full profile details not compiled. See profile_url for the latest information."
+    },
+    {
+      "name": "Tangila Islam Tanni",
+      "designation": "Lecturer (On Leave)",
+      "department": "Bachelor of Science, Computer Science and Engineering (CSE)",
+      "status": "on_leave",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/tangila-removebg-preview.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/tangila-islam-tanni",
+      "education": [],
+      "areas_of_interest": [],
+      "courses_taught": [],
+      "research_area_mapping": null,
+      "note": "Currently on leave; full profile details not compiled. See profile_url for the latest information."
+    },
+    {
+      "name": "Sovon Chakraborty",
+      "designation": "Lecturer (On Leave)",
+      "department": "Department of Computer Science and Engineering (CSE)",
+      "status": "on_leave",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/Sovon-Chakraborty-CSE.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/sovon-chakraborty",
+      "education": [],
+      "areas_of_interest": [],
+      "courses_taught": [],
+      "research_area_mapping": null,
+      "note": "Currently on leave; full profile details not compiled. See profile_url for the latest information."
+    },
+    {
+      "name": "Satyaki Das",
+      "designation": "Lecturer (On Leave)",
+      "department": "Bachelor of Science, Computer Science and Engineering (CSE)",
+      "status": "on_leave",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/15._Satyaki_Das__1_-removebg-preview.png",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/satyaki-das",
+      "education": [],
+      "areas_of_interest": [],
+      "courses_taught": [],
+      "research_area_mapping": null,
+      "note": "Currently on leave; full profile details not compiled. See profile_url for the latest information."
+    },
+    {
+      "name": "Debolina Halder Lina",
+      "designation": "Lecturer (On Leave)",
+      "department": "School of Science & Engineering",
+      "status": "on_leave",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/faculty-default-pic_1.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/debolina-halder-lina",
+      "education": [],
+      "areas_of_interest": [],
+      "courses_taught": [],
+      "research_area_mapping": null,
+      "note": "Currently on leave; full profile details not compiled. See profile_url for the latest information."
+    },
+    {
+      "name": "Sheikh Tareq Ahmed",
+      "designation": "Lecturer (On Leave)",
+      "department": "Bachelor of Science, Computer Science and Engineering (CSE)",
+      "status": "on_leave",
+      "photo_url": "https://cse.ulab.edu.bd/sites/default/files/styles/faculty_avatar/public/images/faculty/faculty-default-pic_2.jpg",
+      "profile_url": "https://cse.ulab.edu.bd/faculty/sheikh-tareq-ahmed",
+      "education": [],
+      "areas_of_interest": [],
+      "courses_taught": [],
+      "research_area_mapping": null,
+      "note": "Currently on leave; full profile details not compiled. See profile_url for the latest information."
+    }
+  ],
+  "research_area_categories": [
+    {
+      "id": 1,
+      "name": "Artificial Intelligence, Data Science and Intelligent Systems",
+      "topics": [
+        "Data Science",
+        "Machine Learning",
+        "Data Mining",
+        "Computer Vision",
+        "NLP",
+        "Reinforcement Learning",
+        "Generative AI",
+        "Data Analytics",
+        "Decision Support Systems",
+        "Information Retrieval"
+      ],
+      "faculty": [
+        "Prof. Muhammad Golam Kibria",
+        "Prof. Nafees Mansoor",
+        "Fatema Khan",
+        "Nasir Uddin Ahmed"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cybersecurity and Privacy",
+      "topics": [
+        "Cryptography",
+        "Network Security",
+        "Digital Forensics",
+        "Blockchain",
+        "Privacy-Preserving Computing",
+        "Authentication",
+        "Secure Software",
+        "Cyber Threat Intelligence"
+      ],
+      "faculty": [
+        "Rezwan Al Islam Khan",
+        "Nasir Uddin Ahmed",
+        "Shah Jafor Sadeek Quaderi"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Distributed Computing, IoT and Networks",
+      "topics": [
+        "Wireless Networks",
+        "Mobile Computing",
+        "IoT",
+        "Cloud Computing",
+        "Edge Computing",
+        "Distributed Systems",
+        "5G/6G",
+        "Software-Defined Networking"
+      ],
+      "faculty": [
+        "Ashraful Kadir",
+        "Ayesha Akter Lata",
+        "Md Kaviul Hossain",
+        "Wahida Ferdose Urmi"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Computer Systems and Embedded Computing",
+      "topics": [
+        "Operating Systems",
+        "Computer Architecture",
+        "Embedded Systems",
+        "Real-Time Systems",
+        "High Performance Computing",
+        "Parallel Computing",
+        "Hardware-Software Co-design"
+      ],
+      "faculty": [
+        "Md Al Amin Sheikh",
+        "Mst. Taskia Khatun",
+        "Atanu Shuvam Roy",
+        "Dewan Ahmed Muhtasim"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Software Engineering and Human-Centered Computing",
+      "topics": [
+        "Software Engineering",
+        "Software Architecture",
+        "Software Testing",
+        "DevOps",
+        "Requirements Engineering",
+        "HCI",
+        "UX",
+        "Agile Development",
+        "Software Quality",
+        "Empirical Software Engineering"
+      ],
+      "faculty": [
+        "Raihan Kibria",
+        "Ms. Rubaiya Hafiz",
+        "Foysal Ahmed"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Algorithms, Computing Theory and Optimization",
+      "topics": [
+        "Computational Theory",
+        "Algorithms",
+        "Computational Complexity",
+        "Automata Theory",
+        "Formal Methods",
+        "Graph Theory",
+        "Optimization",
+        "Algorithm Engineering"
+      ],
+      "faculty": [
+        "Jannatul Ferdous Ruma",
+        "Abir Bin Yousuf",
+        "Shawban Mahmud"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Interdisciplinary Computing Applications",
+      "topics": [
+        "Smart Healthcare",
+        "Smart Cities",
+        "FinTech",
+        "Educational Technology",
+        "Bioinformatics",
+        "Robotics",
+        "Digital Twins",
+        "Sustainability",
+        "Computational Social Science",
+        "Management Information Systems"
+      ],
+      "faculty": [
+        "Suravi Akhter",
+        "Md. Nazmul Abdal",
+        "Md. Ahsan Ullah"
+      ]
+    }
+  ],
+  "research_area_mapping_source": "https://cse.ulab.edu.bd/people/cse-faculty (department infographic, provided by user)",
+  "bsc_cse_4_year_course_distribution": {
+    "source_note": "Transcribed from official ULAB CSE '4-Year Distribution of Courses' curriculum sheet (provided by user).",
+    "terms": [
+      {
+        "term": 1,
+        "courses": [
+          {
+            "code": "CSE1102",
+            "title": "Introduction to Programming",
+            "credits": "1"
+          },
+          {
+            "code": "GEF1101",
+            "title": "Academic English I",
+            "credits": "3",
+            "remarks": "GED Core 1"
+          },
+          {
+            "code": "MAT1101",
+            "title": "Differential and Integral Calculus",
+            "credits": "3"
+          },
+          {
+            "code": "PHY1101 & PHY1102",
+            "title": "Physics I & LAB",
+            "credits": "3+1"
+          }
+        ],
+        "total_credits": 11
+      },
+      {
+        "term": 2,
+        "courses": [
+          {
+            "code": "CSE1201 & CSE1202",
+            "title": "Structured Programming & LAB",
+            "credits": "3+1",
+            "remarks": "Pre-req: CSE1102"
+          },
+          {
+            "code": "CSE1203",
+            "title": "Discrete Mathematics",
+            "credits": "3"
+          },
+          {
+            "code": "UCC1101",
+            "title": "Bangla Bhasa",
+            "credits": "3",
+            "remarks": "GED Core 2"
+          },
+          {
+            "code": "MAT1201",
+            "title": "Coordinate Geometry and Linear Algebra",
+            "credits": "3"
+          },
+          {
+            "code": "ESK1110",
+            "title": "Study Skills",
+            "credits": "",
+            "remarks": "GED Core 6"
+          }
+        ],
+        "total_credits": 13
+      },
+      {
+        "term": 3,
+        "courses": [
+          {
+            "code": "PHY1301",
+            "title": "Physics II",
+            "credits": "3"
+          },
+          {
+            "code": "CSE1301 & CSE1302",
+            "title": "Data Structures & LAB",
+            "credits": "3+1",
+            "remarks": "Pre-req: CSE1201 & CSE1202"
+          },
+          {
+            "code": "EEE1101 & EEE1102",
+            "title": "Electrical Circuit 1 & LAB",
+            "credits": "3+1"
+          },
+          {
+            "code": "UCC1201",
+            "title": "History of the Emergence of Independent Bangladesh",
+            "credits": "3",
+            "remarks": "GED Core 3 (ULAB Core Course)"
+          },
+          {
+            "code": "ESK1111",
+            "title": "Healthy Life Skills",
+            "credits": "",
+            "remarks": "GED Core 6"
+          }
+        ],
+        "total_credits": 14
+      },
+      {
+        "term": 4,
+        "courses": [
+          {
+            "code": "MAT2101",
+            "title": "Differential Equations and Numerical Analysis",
+            "credits": "3"
+          },
+          {
+            "code": "GEF1201",
+            "title": "English II",
+            "credits": "3",
+            "remarks": "GED Core 4"
+          },
+          {
+            "code": "CSE2101 & CSE2102",
+            "title": "Digital Logic Design & Lab",
+            "credits": "3+1"
+          },
+          {
+            "code": "CSE2103 & CSE2104",
+            "title": "Object Oriented Programming & LAB",
+            "credits": "3+1",
+            "remarks": "Pre-req: CSE1201 & CSE1202"
+          },
+          {
+            "code": "ESK1112",
+            "title": "Social Skills",
+            "credits": "",
+            "remarks": "GED Core 6"
+          }
+        ],
+        "total_credits": 14
+      },
+      {
+        "term": 5,
+        "courses": [
+          {
+            "code": "CSE2201 & CSE2202",
+            "title": "Algorithms & LAB",
+            "credits": "3+1",
+            "remarks": "Pre-req: CSE1203, CSE1201, CSE1202"
+          },
+          {
+            "code": "CSE2203",
+            "title": "Computer Organization and Architecture",
+            "credits": "3",
+            "remarks": "Pre-req: CSE2101"
+          },
+          {
+            "code": "STA2101",
+            "title": "Statistics and Probability",
+            "credits": "3"
+          },
+          {
+            "code": "EEE1301 & EEE1302",
+            "title": "Electronic Device and Circuits 1 & LAB",
+            "credits": "3+1"
+          },
+          {
+            "code": "CSE2200",
+            "title": "Design Project-I",
+            "credits": "1",
+            "remarks": "Pre-req: CSE2103, CSE2104"
+          },
+          {
+            "code": "ESK1113",
+            "title": "Professional Skills",
+            "credits": "",
+            "remarks": "GED Core 6"
+          }
+        ],
+        "total_credits": 15
+      },
+      {
+        "term": 6,
+        "courses": [
+          {
+            "code": "CSE2301 & CSE2302",
+            "title": "Database Management System & Lab",
+            "credits": "3+1"
+          },
+          {
+            "code": "CSE2303",
+            "title": "Automata and Theory of Computation",
+            "credits": "3",
+            "remarks": "Pre-req: CSE2201"
+          },
+          {
+            "code": "CSE2305 & CSE2306",
+            "title": "Operating Systems & Lab",
+            "credits": "3+1",
+            "remarks": "Pre-req: CSE2203"
+          },
+          {
+            "code": "GED2159",
+            "title": "Professional Ethics (GED 5)",
+            "credits": "3",
+            "remarks": "GED Core 5"
+          }
+        ],
+        "total_credits": 14
+      },
+      {
+        "term": 7,
+        "courses": [
+          {
+            "code": "CSE3101 & CSE3102",
+            "title": "Microprocessor and Microcontroller & Lab",
+            "credits": "3+1",
+            "remarks": "Pre-req: CSE2203"
+          },
+          {
+            "code": "GEDXXXX",
+            "title": "GED Elective 3",
+            "credits": "3",
+            "remarks": "GED Elective from Social Science"
+          },
+          {
+            "code": "CSE3103",
+            "title": "System Analysis and Design",
+            "credits": "3",
+            "remarks": "Pre-req: CSE2103"
+          },
+          {
+            "code": "GED2243",
+            "title": "Environment and Sustainability (GED 7)",
+            "credits": "3",
+            "remarks": "Mandatory for CSE, GED Tier 3"
+          },
+          {
+            "code": "CSE3120",
+            "title": "Web Programming",
+            "credits": "1",
+            "remarks": "Pre-req: CSE2103 & CSE2104"
+          }
+        ],
+        "total_credits": 14
+      },
+      {
+        "term": 8,
+        "courses": [
+          {
+            "code": "CSE3201 & CSE3202",
+            "title": "Artificial Intelligence & Machine Learning & Lab",
+            "credits": "3+1",
+            "remarks": "Pre-req: CSE2201, CSE2202, STA2101, MAT1201"
+          },
+          {
+            "code": "CSE3203",
+            "title": "Software Engineering",
+            "credits": "3",
+            "remarks": "Pre-req: CSE3103"
+          },
+          {
+            "code": "CSE3200",
+            "title": "Design Project-II",
+            "credits": "1",
+            "remarks": "Pre-req: CSE2301, CSE2302, CSE3103, CSE2200"
+          },
+          {
+            "code": "CSE3205 & CSE3206",
+            "title": "Computer Networks & Lab",
+            "credits": "3+1"
+          },
+          {
+            "code": "GED2248",
+            "title": "Industrial Management (GED 6)",
+            "credits": "3",
+            "remarks": "Mandatory for CSE, GED Tier 2"
+          }
+        ],
+        "total_credits": 15
+      },
+      {
+        "term": 9,
+        "courses": [
+          {
+            "code": "CSEXXXX",
+            "title": "Major Elective 1",
+            "credits": "3"
+          },
+          {
+            "code": "CSE3301",
+            "title": "Cyber Security",
+            "credits": "3",
+            "remarks": "Pre-req: CSE2305, CSE2306, CSE3205, CSE3206"
+          },
+          {
+            "code": "",
+            "title": "Optional/Minor 1",
+            "credits": "3"
+          },
+          {
+            "code": "CSE4098A",
+            "title": "Capstone Project 1",
+            "credits": "1"
+          }
+        ],
+        "total_credits": 10
+      },
+      {
+        "term": 10,
+        "courses": [
+          {
+            "code": "CSEXXXX & CSEXXXX",
+            "title": "Major Elective 2 + Lab",
+            "credits": "3+1"
+          },
+          {
+            "code": "CSEXXXX",
+            "title": "Major Elective 3",
+            "credits": "3"
+          },
+          {
+            "code": "",
+            "title": "Optional/Minor 2",
+            "credits": "3"
+          },
+          {
+            "code": "CSE4098B",
+            "title": "Capstone Project 2",
+            "credits": "1"
+          }
+        ],
+        "total_credits": 11
+      },
+      {
+        "term": 11,
+        "courses": [
+          {
+            "code": "CSEXXXX",
+            "title": "Major Elective 4",
+            "credits": "3"
+          },
+          {
+            "code": "",
+            "title": "Optional/Minor 3",
+            "credits": "3"
+          },
+          {
+            "code": "CSE4098C",
+            "title": "Capstone Project 3",
+            "credits": "2"
+          }
+        ],
+        "total_credits": 8
+      },
+      {
+        "term": 12,
+        "courses": [
+          {
+            "code": "CSE4099",
+            "title": "Internship / Thesis",
+            "credits": "1"
+          }
+        ],
+        "total_credits": 1
+      }
+    ]
+  },
+  "course_full_names": {
+    "note": "Placeholder — to be filled once the user provides the image(s) listing full names/expansions of CSE course codes.",
+    "data": {}
+  },
+  "pending_additions": [
+    "Faculty <-> research topic mapping images (received and incorporated as 'research_area_mapping' field + 'research_area_categories' section).",
+    "Full names of CSE course codes (not yet received)."
+  ]
+}

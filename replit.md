@@ -1,6 +1,6 @@
-# [Project name]
+# SemesterView
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+SemesterView is a local-data ULAB academic assistant that brings CSE schedules, exams, rooms, faculty research, and advisor discovery into one personalized semester view.
 
 ## Run & Operate
 
@@ -22,23 +22,33 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/semesterview/src/App.tsx` — routed student and teacher experiences.
+- `artifacts/semesterview/src/data.ts` — normalization and derived schedule/room/course data.
+- `artifacts/semesterview/src/index.css` — SemesterView visual tokens and responsive styling.
+- `artifacts/semesterview/src/data/exams.json` — normalized undergraduate midterm workbook records.
+- `attached_assets/` — supplied semester plan, faculty source, exam workbook, and product brief.
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The first prototype is frontend-only and uses the supplied local datasets directly; user choices use localStorage.
+- Course, faculty, day, and time normalization is kept in a small data layer so inconsistent source formatting does not leak into UI logic.
+- Missing values stay explicit as TBA or empty states rather than being fabricated.
+- Student and teacher flows share normalized source data but have separate role-specific navigation and dashboards.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Students can demo-login with a ULAB ID, select CSE courses, view a generated schedule, find free rooms, review exams and calendar events, search faculty and research, select an advisor, and save research interests.
+- Teachers can demo-login from the supplied faculty records and view their day-by-day and full recurring teaching schedule plus research context.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- Prioritize a reliable, polished hackathon demo over unnecessary backend complexity.
+- Use the uploaded datasets as the source of truth and do not implement Google OAuth.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- The source schedule includes non-array markers for some days; the normalization layer must treat those days as empty.
+- The app is local-data only for the prototype; no database or external authentication is required for the core flows.
 
 ## Pointers
 

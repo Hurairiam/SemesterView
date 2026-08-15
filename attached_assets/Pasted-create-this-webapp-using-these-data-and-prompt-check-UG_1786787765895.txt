@@ -1,0 +1,1060 @@
+create this webapp using these data and prompt check , UG schedule as json file is not totally correct
+
+this is the Prompt
+
+Build a polished, modern, responsive university academic assistant web application called:
+
+SEMESTERVIEW
+
+Tagline/concept:
+"Your semester. Clearly organized."
+
+SemesterView is a hackathon prototype for ULAB (University of Liberal Arts Bangladesh). It is designed to solve a common university-student problem: important academic information is scattered across schedules, course allocations, exam schedules, academic calendars, faculty information, rooms, and research information.
+
+The goal is to bring these into one clear, personalized academic experience.
+
+I am attaching the actual JSON data files alongside this prompt. These files are the source of truth.
+
+IMPORTANT:
+- Inspect the attached JSON files and their actual structure before implementing data-dependent features.
+- Do not invent university data when the attached data contains the information.
+- Do not assume field names; adapt to the actual JSON structure.
+- Do not hardcode large datasets inside UI components.
+- Keep data access and business logic modular.
+- Additional teacher/faculty data may be added later, so make the architecture extensible.
+- Do not block the application because a future dataset is missing.
+- Gracefully handle missing values such as TBA.
+- The current demo focuses on CSE students for the full academic experience.
+- Do not implement Google OAuth.
+- This is a hackathon prototype, so use simple demo/local authentication and persistence.
+- Prioritize working functionality and an excellent demo experience over unnecessary backend complexity.
+
+==================================================
+1. PRODUCT IDENTITY
+==================================================
+
+Product name:
+SemesterView
+
+The product should feel like a modern university technology platform rather than a traditional university portal.
+
+Visual direction:
+- Modern SaaS/product-quality interface
+- Premium but practical
+- Clean typography
+- Strong visual hierarchy
+- Elegant cards
+- Subtle gradients where appropriate
+- Smooth transitions
+- Micro-interactions
+- Hover effects
+- Subtle animations
+- Modern icons
+- Excellent spacing
+- Responsive design
+- Clear empty states
+- Loading/skeleton states where useful
+- Toast/feedback states
+- Accessible controls
+
+Use your design judgment.
+
+Do NOT make the interface excessively animated or visually cluttered.
+
+The UI should be impressive enough for a live hackathon judging demonstration while remaining highly usable.
+
+==================================================
+2. DATA SOURCES
+==================================================
+
+The attached data may include:
+
+- Summer 2026 semester academic data
+- Weekly recurring class schedule
+- Midterm/exam schedule
+- Academic calendar
+- Course allocation information
+- Faculty information
+- CSE faculty profiles
+- Faculty research interests
+- Research-area mappings
+- Rooms through schedule data
+
+The semester JSON describes the academic calendar, recurring schedule and midterm information.
+
+It also contains faculty legends and research-related structures.
+
+The separate CSE faculty data may contain:
+- name
+- designation
+- department
+- status
+- photo_url
+- profile_url
+- education
+- areas_of_interest
+- courses_taught
+- research_area_mapping
+
+Use these fields where available.
+
+Some schedule/course data may contain inconsistent formatting.
+
+For example, course codes may appear in multiple forms such as:
+- CSE 2201
+- CSE 2201 / registrar code
+- spacing variations
+- minor punctuation differences
+
+Normalize course identifiers when matching related datasets.
+
+Preserve the original source values for display where useful, but use normalized identifiers for matching.
+
+Some source entries may have:
+- TBA rooms
+- TBA faculty
+- incomplete fields
+
+Never fabricate missing values.
+
+Display "TBA" or an appropriate unavailable state.
+
+==================================================
+3. LOGIN
+==================================================
+
+Create a polished login experience.
+
+Two roles:
+
+STUDENT
+TEACHER
+
+-------------------------
+STUDENT LOGIN
+-------------------------
+
+ULAB student IDs follow this structure:
+
+Example:
+251014001
+
+Meaning:
+- first 2 digits = session
+- third digit = semester/session indicator
+- next 3 digits = department
+- final 3 digits = student roll
+
+Department codes:
+
+011 = BBA
+012 = MSJ
+013 = ENG
+014 = CSE
+016 = EEE
+018 = ESS
+
+Extract the department code from the student ID.
+
+Example:
+
+251014001 → CSE
+
+Student name does not need to be verified.
+
+The application only needs to validate the ID structure and determine the department.
+
+For the hackathon demo, the full SemesterView academic functionality is intended for CSE students.
+
+Other departments should not create irrelevant information clutter.
+
+-------------------------
+TEACHER LOGIN
+-------------------------
+
+Use a simple demo teacher login.
+
+Teacher accounts can be predefined from the available teacher data.
+
+Do not implement:
+- Google OAuth
+- real university authentication
+- password reset
+- complicated account verification
+- external identity providers
+
+After login:
+
+Student → Student Dashboard
+
+Teacher → Teacher Dashboard
+
+==================================================
+4. STUDENT ONBOARDING / COURSE SELECTION
+==================================================
+
+A student's schedule cannot be assumed from their department alone.
+
+Students must first specify the courses they are currently taking.
+
+Create a polished "My Courses" experience.
+
+Students can:
+- Search available courses
+- Browse available CSE courses
+- Add courses
+- Remove courses
+- Edit selections later
+- Save their current semester courses
+
+Use the provided course allocation/course data.
+
+Course names and course IDs must be resolved using the supplied data rather than manually invented.
+
+If the data contains multiple sections for a course, allow sensible section selection when required.
+
+The course-selection experience should be simple enough that a student can configure their semester in under a minute.
+
+After saving courses, immediately offer:
+
+"View My Schedule"
+
+==================================================
+5. PERSONALIZED STUDENT SCHEDULE
+==================================================
+
+This is one of the main features.
+
+Generate the student's schedule from their selected courses.
+
+The system should match:
+
+Student selected course
+→ course identifier
+→ section where applicable
+→ recurring schedule
+→ day
+→ time
+→ room
+→ faculty
+
+Provide:
+
+- Today's schedule
+- Weekly timetable
+- Full recurring semester schedule
+- Course code
+- Course name
+- Section
+- Time
+- Room
+- Faculty
+
+The primary schedule view should be visually easy to scan.
+
+Prefer a modern timetable/calendar-style interface.
+
+Clearly highlight:
+- Current day
+- Current time
+- Next class
+- Completed classes
+- Upcoming classes
+
+The schedule should update automatically when the student adds/removes courses.
+
+==================================================
+6. STUDENT DASHBOARD
+==================================================
+
+Create a personalized dashboard rather than a generic grid of unrelated cards.
+
+The dashboard should prioritize:
+
+- Greeting
+- Current date
+- Next class
+- Today's classes
+- Upcoming exam
+- Next important academic event
+- Quick room finder
+- Quick course management
+- Research shortcut for CSE students
+- Advisor shortcut
+
+Example concept:
+
+NEXT CLASS
+CSE 2201
+10:00 AM – 11:20 AM
+Room A-502
+Dr. Example
+
+UPCOMING
+Midterm Examination
+CSE 2201
+June 28
+
+ACADEMIC
+Student Advising Week
+June 7–10
+
+Do not hardcode these examples.
+
+Calculate/display real information from the supplied data.
+
+==================================================
+7. CLASS / ROOM LOOKUP
+==================================================
+
+Students should be able to quickly answer:
+
+"Where is my class?"
+
+Allow:
+- Search course
+- Select course
+- View section
+- View day
+- View time
+- View faculty
+- View room
+
+Use the actual schedule data.
+
+If room is TBA, clearly show that.
+
+==================================================
+8. FREE ROOM FINDER
+==================================================
+
+This is an important technical feature.
+
+Build a dynamic free-room finder.
+
+The user selects:
+- Day
+- Time
+
+Use the room information available from the supplied schedule data.
+
+Logic:
+
+ALL KNOWN ROOMS
+minus
+ROOMS OCCUPIED BY CLASSES AT SELECTED DAY + TIME
+=
+AVAILABLE ROOMS
+
+Do not maintain a fake/static "free rooms" list.
+
+Extract the complete set of known rooms from the schedule data.
+
+Then determine occupancy from scheduled classes.
+
+Handle time slots such as:
+
+8:00 - 9:20 am
+9:25 - 10:45 am
+
+and similar source formats.
+
+Normalize times internally so comparisons work reliably.
+
+If a selected time overlaps a scheduled class, treat that room as occupied.
+
+Show:
+
+AVAILABLE ROOMS
+
+and optionally:
+
+OCCUPIED ROOMS
+
+Useful room metadata should be displayed when available.
+
+Create a polished time-selection experience.
+
+A clock/time-picker style interface is welcome if it improves UX.
+
+This feature should feel like a real utility rather than a static table.
+
+==================================================
+9. EXAM / MIDTERM SCHEDULE
+==================================================
+
+Use the supplied midterm/exam schedule data.
+
+Provide:
+
+- Upcoming exams
+- Course
+- Course code
+- Section
+- Date
+- Time
+- Room
+- Faculty where available
+
+Prioritize exams associated with the student's selected courses.
+
+Also allow access to the broader available exam schedule where appropriate.
+
+Create a visually clear exam timeline/calendar/list.
+
+Use actual dates from the data.
+
+Do not invent missing values.
+
+==================================================
+10. ACADEMIC CALENDAR
+==================================================
+
+Use the supplied academic calendar.
+
+The dashboard should NOT display the entire academic calendar.
+
+Instead, intelligently surface nearby/upcoming events.
+
+For example:
+
+UP NEXT
+
+Student Advising Week
+June 7–10
+
+or:
+
+MIDTERM EXAMS
+June 28–July 4
+
+The application should determine upcoming events from the actual dates rather than hardcoding which event appears.
+
+Provide a full academic calendar view as a secondary page/section.
+
+Support:
+- Single-day events
+- Date ranges
+- Events with multiple dates
+- Week information where available
+- Notes where available
+
+Examples of event types in the actual data include:
+- orientation
+- registration
+- add/drop deadlines
+- advising
+- holidays
+- midterms
+- final exams
+- last class
+- result publication
+- next semester commencement
+
+Use the actual dataset.
+
+==================================================
+11. FACULTY DIRECTORY
+==================================================
+
+Create a polished faculty directory.
+
+Use the attached faculty JSON.
+
+Where available, faculty profiles may include:
+- Name
+- Designation
+- Department
+- Status
+- Photo
+- Profile URL
+- Education
+- Areas of interest
+- Courses taught
+- Research-area mapping
+
+Create:
+- Search
+- Faculty cards
+- Faculty profile page/modal
+- Useful filtering
+
+Faculty profiles should feel rich and modern.
+
+Use faculty photos when photo URLs exist.
+
+Do not fabricate faculty information.
+
+If a faculty member has no photo, use a professional fallback avatar.
+
+==================================================
+12. RESEARCH DISCOVERY
+==================================================
+
+Create a dedicated Research section.
+
+This feature is available to CSE students.
+
+Students should be able to discover research areas and faculty.
+
+Use the actual research information in the attached data.
+
+There may be:
+- broad research-area mappings
+- detailed individual faculty interests
+
+Use both intelligently.
+
+Example:
+
+Research
+→ Artificial Intelligence
+→ Faculty working in related areas
+
+A faculty profile can show:
+
+Research Interests
+- Machine Learning
+- Artificial Intelligence
+- Bioinformatics
+
+Research Area
+Artificial Intelligence, Data Science and Intelligent Systems
+
+Do not claim that a faculty member belongs to a research area unless the supplied data supports it.
+
+If research-area mapping is missing for a faculty member, their individual areas_of_interest can still be displayed.
+
+==================================================
+13. RESEARCH INTEREST ACTION
+==================================================
+
+CSE students should be able to express research interest.
+
+Provide an intuitive action such as:
+
+"I'm Interested"
+
+Allow the student to:
+- Select research interests
+- Remove interests
+- View their selected interests
+
+Persist this during the prototype session/local application state.
+
+The architecture should support:
+
+Student
+→ Research Interest
+→ Research Area
+→ Faculty
+
+This data will later be surfaced on the teacher side.
+
+==================================================
+14. ADVISOR SELECTOR
+==================================================
+
+Create a CSE-only advisor selection area.
+
+Students can:
+- Browse eligible CSE faculty
+- View faculty information
+- Select an advisor
+- See their current advisor
+- Change their advisor
+
+Keep this lightweight and prototype-friendly.
+
+No complicated approval workflow is required.
+
+Persist the selected advisor in local/session state.
+
+==================================================
+15. ADVISOR CONTACT
+==================================================
+
+Provide:
+
+"Contact Advisor"
+
+If an advisor email is available, open a mail/Gmail compose action with the email prefilled.
+
+Do not implement Gmail OAuth or Gmail API integration.
+
+This is a secondary convenience feature.
+
+==================================================
+16. TEACHER DASHBOARD
+==================================================
+
+Create a separate teacher experience.
+
+Teacher dashboard must not look like the student dashboard.
+
+Prioritize teaching responsibilities.
+
+-------------------------
+DAY-BY-DAY SCHEDULE
+-------------------------
+
+Teachers can select/navigate days:
+
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+etc.
+
+Show their classes for the selected day.
+
+Display:
+- Course
+- Course code
+- Section
+- Time
+- Room
+- Other available information
+
+-------------------------
+FULL SEMESTER SCHEDULE
+-------------------------
+
+This is a CORE feature.
+
+A teacher must be able to view their complete recurring semester schedule.
+
+Do NOT only show today's classes.
+
+Provide a clean semester timetable showing all recurring classes by:
+- Day
+- Time
+- Course
+- Section
+- Room
+
+Make this one of the most prominent teacher features.
+
+The teacher should be able to understand their entire weekly teaching load at a glance.
+
+==================================================
+17. TEACHER RESEARCH DASHBOARD
+==================================================
+
+Create an area where teachers can eventually see students interested in their research.
+
+Concept:
+
+Research Area
+→ Interested Students
+
+Example UI:
+
+Machine Learning
+8 interested students
+
+Cybersecurity
+5 interested students
+
+Do not invent counts.
+
+If current data does not contain actual student-interest records, create the UI/data structure and show a tasteful empty/demo state.
+
+The system must be ready for student interest actions to feed into this view.
+
+==================================================
+18. CSE CONNECT
+==================================================
+
+Create a section for official CSE social/department links.
+
+Links will be supplied separately.
+
+Potential platforms:
+- LinkedIn
+- Facebook
+- Website
+- Other official social platforms
+
+Do not invent URLs.
+
+Create a polished "CSE Connect" section.
+
+==================================================
+19. GLOBAL SEARCH
+==================================================
+
+Include a useful global search if it fits naturally into the navigation.
+
+Search should be able to find:
+- Courses
+- Faculty
+- Research areas
+- Rooms
+
+Example:
+
+Search:
+"CSE 2201"
+
+Result:
+Course
+Faculty
+Schedule
+Room
+
+Search:
+"Machine Learning"
+
+Result:
+Research area
+Relevant faculty
+
+Search:
+"Dr. Ayesha"
+
+Result:
+Faculty profile
+
+This is a search/navigation feature, NOT an AI chatbot.
+
+==================================================
+20. NAVIGATION
+==================================================
+
+Use role-specific navigation.
+
+STUDENT:
+
+- Dashboard
+- My Courses
+- My Schedule
+- Rooms
+- Exams
+- Academic Calendar
+- Faculty
+- Research
+- Advisor
+- CSE Connect
+
+TEACHER:
+
+- Dashboard
+- My Schedule
+- Semester Schedule
+- Research
+- Profile
+
+Use your UX judgment to combine or reorganize these where necessary.
+
+Avoid overwhelming users.
+
+Use responsive navigation such as:
+- Sidebar on desktop
+- Mobile navigation/drawer on smaller screens
+
+==================================================
+21. DATA NORMALIZATION
+==================================================
+
+This is important.
+
+The source data may contain course identifiers in different formats.
+
+For example:
+- CSE 2201
+- registrar-style numeric identifiers
+- inconsistent spaces
+- punctuation variations
+
+Create a small normalization layer/helper.
+
+For matching:
+- trim whitespace
+- normalize casing
+- normalize obvious spacing differences
+- separate display labels from internal matching IDs
+- preserve original raw text where useful
+
+Do not modify the source JSON.
+
+Do not manually duplicate the same course data into multiple components.
+
+Similarly, faculty names/codes may have variants.
+
+Use the faculty legend and supplied faculty data when resolving faculty identities.
+
+==================================================
+22. ROOM AVAILABILITY LOGIC
+==================================================
+
+Treat a room as occupied if a scheduled class overlaps the requested time.
+
+Do not simply compare strings.
+
+Convert time slots into comparable time values.
+
+For example:
+
+"8:00 - 9:20 am"
+
+should internally become something equivalent to:
+
+start = 08:00
+end = 09:20
+
+Then compare against the requested time.
+
+Account for:
+- AM/PM
+- spaces
+- different dash characters
+- inconsistent source formatting
+
+If a room has no scheduled class during the requested period, mark it available.
+
+==================================================
+23. SCHEDULE PATTERN HANDLING
+==================================================
+
+The supplied semester data describes recurring weekly schedules.
+
+Some regular courses meet in recurring day pairs.
+
+Some labs/blended sessions may meet only once per week.
+
+Respect the actual day entries in the data.
+
+Do not assume every course meets twice a week.
+
+Use the actual schedule records.
+
+==================================================
+24. PERSISTENCE
+==================================================
+
+This is a hackathon prototype.
+
+Use local/session persistence where appropriate.
+
+Persist:
+- student selected courses
+- student advisor
+- student research interests
+- demo login state
+
+A full backend database is NOT required unless it significantly improves the implementation without consuming unnecessary hackathon time.
+
+The application must remain functional without external authentication.
+
+==================================================
+25. EMPTY / ERROR STATES
+==================================================
+
+Create polished empty states.
+
+Examples:
+
+No courses selected:
+"Add your current courses to build your personalized semester."
+
+No classes today:
+"No classes scheduled today."
+
+No free rooms:
+"No rooms are available at this time."
+
+Faculty research unavailable:
+"Research information isn't available yet."
+
+Teacher research interests unavailable:
+"No student interest data yet."
+
+TBA room:
+"Room TBA"
+
+Do not display broken UI or undefined/null values.
+
+==================================================
+26. RESPONSIVE EXPERIENCE
+==================================================
+
+Optimize primarily for a desktop/laptop hackathon demonstration.
+
+Also support:
+- Tablet
+- Mobile
+
+On smaller screens:
+- timetable should remain usable
+- cards should stack intelligently
+- navigation should collapse
+- tables should become scrollable or transform into cards where appropriate
+
+==================================================
+27. PERFORMANCE / SIMPLICITY
+==================================================
+
+This is a 3-hour hackathon.
+
+Prefer:
+- client-side filtering
+- local JSON data
+- lightweight state
+- simple reusable components
+- minimal dependencies
+
+Do not introduce unnecessary:
+- microservices
+- complex databases
+- external APIs
+- authentication providers
+- server infrastructure
+- AI APIs
+
+The goal is a reliable, polished prototype.
+
+==================================================
+28. COMPONENT ARCHITECTURE
+==================================================
+
+Keep components reusable.
+
+Potential reusable components include:
+
+- AppShell
+- Sidebar
+- Topbar
+- DashboardCard
+- CourseCard
+- CourseSelector
+- ScheduleGrid
+- ClassCard
+- RoomFinder
+- ExamCard
+- AcademicEventCard
+- FacultyCard
+- FacultyProfile
+- ResearchAreaCard
+- InterestButton
+- AdvisorSelector
+- TeacherSchedule
+- SemesterTimetable
+- SearchCommand
+
+These are suggestions, not strict requirements.
+
+Use your judgment.
+
+==================================================
+29. MAIN DEMO FLOWS
+==================================================
+
+The application should make these flows especially polished because they are ideal for a live hackathon demonstration.
+
+DEMO FLOW 1:
+
+Student login
+→ CSE recognized from ID
+→ Dashboard
+
+DEMO FLOW 2:
+
+My Courses
+→ select courses
+→ save
+→ personalized semester schedule appears
+
+DEMO FLOW 3:
+
+Schedule
+→ select class
+→ instantly see room
+
+DEMO FLOW 4:
+
+Free Room Finder
+→ select day/time
+→ system checks scheduled rooms
+→ available rooms appear
+
+DEMO FLOW 5:
+
+Exams
+→ show upcoming exam for selected course
+
+DEMO FLOW 6:
+
+Academic Calendar
+→ show next important event
+→ open full calendar
+
+DEMO FLOW 7:
+
+Research
+→ select research area
+→ view relevant faculty
+→ open faculty profile
+→ click "I'm Interested"
+
+DEMO FLOW 8:
+
+Advisor
+→ select faculty
+→ view selected advisor
+→ contact advisor
+
+DEMO FLOW 9:
+
+Teacher login
+→ teacher dashboard
+→ day-by-day classes
+→ full semester schedule
+→ research-interest section
+
+These flows should feel connected rather than like separate unrelated pages.
+
+==================================================
+30. IMPORTANT: DO NOT OVERBUILD
+==================================================
+
+Do not add:
+- AI chatbot
+- Google authentication
+- complex backend authentication
+- payment systems
+- messaging platform
+- unnecessary analytics
+- unnecessary admin panels
+- unrelated features
+
+The product should focus on academic organization and student-faculty connection.
+
+==================================================
+31. FINAL PRODUCT FEEL
+==================================================
+
+SemesterView should feel like a real product that could eventually become a university-wide academic platform.
+
+Core idea:
+
+"Instead of checking multiple schedules, PDFs, faculty pages and academic notices, students can see the information that matters to them in one personalized semester view."
+
+The strongest differentiators should be:
+
+1. Personalized schedule generated from the student's selected courses
+2. Dynamic free-room finder
+3. Teacher full-semester schedule
+4. Research discovery connecting CSE students with faculty
+5. Advisor selection
+6. Unified academic calendar/exam information
+7. Clean role-specific student and teacher experiences
+
+Build a cohesive product around these ideas.
+
+Do not treat the application as a collection of generic dashboard templates.
+
+Make it visually impressive, technically coherent, intuitive, and ready for a live hackathon demonstration.
+
+Use the attached JSON data as the source of truth and adapt implementation to its real structure.

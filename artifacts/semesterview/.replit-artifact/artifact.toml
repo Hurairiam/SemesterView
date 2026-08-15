@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "SemesterView"
+description = "A polished ULAB academic assistant for CSE students and teachers, combining personalized schedules, exam dates, rooms, faculty research, and advisor discovery in one semester view."
+version = "1.0.0"
+id = "artifacts/semesterview"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21806
+
+[services.development]
+run = "pnpm --filter @workspace/semesterview run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/semesterview", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/semesterview/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21806"
+BASE_PATH = "/"
