@@ -33,39 +33,61 @@ SemesterView consolidates schedules, exams, room availability, faculty informati
 
 ## Why It Stood Out
 
-Most student-assistant concepts at the event relied on hardcoded demo screens. SemesterView's structured JSON pipeline demonstrated that the same interface could scale to real, changing university data — a distinction the judges specifically called out.
+Most student-assistant concepts at the event relied on hardcoded demo screens. SemesterView's data layer is driven by an OpenAPI contract that auto-generates matching Zod validators and a typed React client — meaning the frontend and backend share verified types end-to-end, rather than the UI just being wired to static mock data.
 
 ## Tech Stack
 
 | Layer | Technology |
 |---|---|
-| Frontend | Next.js, React, Tailwind CSS |
-| Backend | Next.js API routes (no separate server) |
-| Database | SQLite |
+| Frontend | React, Vite, TypeScript, Tailwind CSS, Radix UI (shadcn/ui pattern) |
+| Data Fetching / Forms | TanStack Query, React Hook Form, Zod |
+| Backend | Express 5 (Node.js), Pino for logging |
+| API Contract | OpenAPI spec → auto-generated Zod schemas & typed React client (via Orval) |
+| Database | PostgreSQL (via Drizzle ORM) |
+| Package Management | pnpm workspaces (monorepo) |
 | Hosting | Replit |
 
 **Architecture:**
 ```
-User → Next.js/React Frontend → Next.js API Routes → SQLite
+React (Vite) Frontend
+        │
+        ▼
+Typed API Client (generated from OpenAPI)
+        │
+        ▼
+Express API Server ──▶ Drizzle ORM ──▶ PostgreSQL
 ```
 
-Academic data (courses, schedules, exams) is treated as refreshable per semester, while user data (selections, preferences) is designed to persist independently.
+The API contract is defined once in `openapi.yaml`, then Orval generates both the Zod validation schemas used by the backend and the typed API client consumed by the frontend — keeping request/response shapes in sync across the stack without hand-written duplication.
 
 ## Getting Started
+
+This is a pnpm monorepo. Use `pnpm`, not `npm` or `yarn`.
 
 ```bash
 # Clone the repository
 git clone https://github.com/Hurairiam/SemesterView.git
 cd SemesterView
 
-# Install dependencies
+# Install dependencies (workspace-wide)
 pnpm install
+```
 
-# Run the development server
+Run the backend and frontend in separate terminals:
+
+```bash
+# Terminal 1 — API server
+cd artifacts/api-server
+pnpm dev
+
+# Terminal 2 — Frontend
+cd artifacts/semesterview
 pnpm dev
 ```
 
-Visit `http://localhost:3000` to view the app locally.
+The frontend dev server runs on Vite's default port; the API server runs separately alongside it.
+
+> **Note:** The API server requires a `DATABASE_URL` environment variable pointing to a PostgreSQL instance (used by Drizzle ORM) before it will start.
 
 ## Roadmap
 
