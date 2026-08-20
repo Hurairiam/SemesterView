@@ -90,6 +90,29 @@ This was built as a hackathon prototype within a strict 3-hour window. Planned n
 
 Built in a 3-hour sprint on **August 15, 2026** for the **ULAB UCPC Hackathon — Club Week Challenge 2026**, organized by the ULAB Computer Programming Club (UCPC), competing against ~9 teams on problem understanding, technical implementation, functionality, UX, and presentation.
 
+## Gallery
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="hackathon-photos/teamphoto.jpg" alt="The Special One - Team Photo" width="520"><br>
+      <sub><em>The Special One at the ULAB UCPC Hackathon</em></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="hackathon-photos/crest.jpg" alt="Winning Crest" width="220"><br>
+      <sub><em>Champion Crest</em></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="hackathon-photos/certifcate_huraira.jpg" alt="Certificate of Achievement" width="450"><br>
+      <sub><em>Certificate of Achievement</em></sub>
+    </td>
+  </tr>
+</table>
+
 ---
 
 <p align="center">Built with ☕ and a strict 4:00 PM deadline.</p>
